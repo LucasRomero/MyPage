@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/loadSpinner.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- AOS Animaciones -->
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <title>Lucas Romero - CV</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navg navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-me">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aptitudes">Technical Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experiences">Experiencie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- End Navbar -->
+
+        <!-- Profile -->
+        <section>
+            <img src="images/pics/me.jpeg" width="180" class="img rounded-circle img-fluid"
+                alt="First sample avatar image">
+            <!-- TITULOS -->
+            <h1>Lucas Daniel Romero</h1>
+            <h2>Web Developer</h2>
+
+            <!-- CVs -->
+            <br>
+            <a href="CV/Lucas_Romero_CV.pdf" download="CV_Luciano_Diaz.pdf" class="botonPDF">
+                <i class="fa fa-file-pdf"></i> PDF CV
+            </a>
+            <a href="CV/Lucas_Romero_CV.docx" download="CV_Luciano_Diaz.docx" class="botonWord">
+                <i class="fa fa-file-word"></i> DOCX CV
+            </a>
+        </section>
+        <!-- End Profile -->
+    </header>
+
+    <section id="about-me">
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="card-title"><strong>About me</strong></h3>
+                            <!-- Text -->
+                            <p class="card-text">Hi! Mi name is Lucas. Since 2017, I'm working as a web programmer.
+                            </p>
+                            <p class="card-text">My interests in this topic? I looking for the good practices and
+                                knowledge about different
+                                programming languages ​​and technologies. I am inclined to improve a full-stack profile.
+                            </p>
+                            <p class="card-text">About work, I consider that it's very important to maintain a good
+                                environment and
+                                communication between the participants of the team to achieve the best possible the
+                                common objective.</p>
+                            <p class="card-text">And talking about my free times, I believe it's necessary work-out,
+                                'cause we need to
+                                keep health's physical as pyschic. So, in my case, I do motocross and
+                                functional trainning on my own.</p>
+                        </div>
+
+                        <div id="basic-info" class="col-md-6">
+                            <h3 class="card-title"><strong>Personal Information</strong></h3>
+                            <div class="card-text">
+                                <div class="row space-info">
+                                    <div class="col-md-3">
+                                        <b>Age:</b>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span id="lucas-years-old"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row space-info">
+                                    <div class="col-md-3">
+                                        <b>E-Mail:</b>
+                                    </div>
+                                    <div class="col-md-6">
+                                        romerolucasdaniel@outlook.com
+                                    </div>
+                                </div>
+
+                                <div class="row space-info">
+                                    <div class="col-md-3">
+                                        <b>Phone:</b>
+                                    </div>
+                                    <div class="col-md-6">
+                                        +54 11-5947-9544
+                                    </div>
+                                </div>
+
+                                <div class="row space-info">
+                                    <div class="col-md-3">
+                                        <b>Address:</b>
+                                    </div>
+                                    <div class="col-md-6">
+                                        Don Torcuato, Tigre, Buenos Aires (Argentina)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aptitudes">
+        <div data-aos="fade-up">
+            <h2>Technical Skills</h2>
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>back-end development</h3>
+                                </label>
+                                <label class="progress-number">50%</label>
+                                <span class="bar">
+                                    <span class="desarrollo-backend" data-aos="charge-bar"></span>
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>front-end development</h3>
+                                </label>
+                                <label class="progress-number">40%</label>
+                                <span class="bar">
+                                    <span class="desarrollo-front" data-aos="charge-bar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>api development | web services</h3>
+                                </label>
+                                <label class="progress-number">40%</label>
+                                <span class="bar">
+                                    <span class="desarrollo-api"></span>
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>ux & ui</h3>
+                                </label>
+                                <label class="progress-number">20%</label>
+                                <span class="bar">
+                                    <span class="ux-ui"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>database</h3>
+                                </label>
+                                <label class="progress-number">40%</label>
+                                <span class="bar">
+                                    <span class="base-datos"></span>
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <h3>proyect management</h3>
+                                </label>
+                                <label class="progress-number">15%</label>
+                                <span class="bar">
+                                    <span class="gestion-proyectos"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div data-aos="fade-up">
+            <h2>Education</h2>
+
+            <div class="container">
+
+                <!-- Bachillerato -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>2007 - 2012</h5>
+                                <h4>Bachelor's Degree</h4>
+                            </div>
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">Bachelor's Degree in Economics</h3>
+                                    <h4 class="h4Color">Institute Media N3 - Don Torcuato (Tigre)</h4>
+                                    <p class="card-text">I had my basic education in this private high school
+                                        since elementary school.
+                                        The degree I obtained is oriented to Economics.
+                                        I finished with a General Average of:7</p>
+
+                                    <p class="card-text" style="float: right;"><b>Finished</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Programmer Technician -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="container col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>2017 - 2020</h5>
+                                <h4>University Technician in Programming</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">UTP (University Technician in Programming)</h3>
+                                    <h4 class="h4Color">National Technological University - FRGP
+                                    </h4>
+                                    <p class="card-text">
+                                        This career lasts 3 years. After finishing my second year at the
+                                        conservatory, I decided to choose this career under the influence of a
+                                        programmer. I was curious to know what the world of programming was all about.
+                                        I was also struck by the great job opportunities.
+                                        And I liked the idea that the career is more technically
+                                        than theoretical. Beyond these aspects, the freedom to create anything in any
+                                        topic, was one of the features that attracted me the most. Doing a job or
+                                        activity where is mostly about creativity, out of the routine and repetitive,
+                                        is something that I consider important in the lives of people to maintain
+                                        and remember the feeling of freedom.
+                                    </p>
+                                    <p class="card-text status-education"><b>Finished</b></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Other -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="container col-md-4 align-first-column" data-aos="fade-right">
+                                <h5></h5>
+                                <h4>Others</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">Others</h3>
+                                    <h4 class="h4Color">Courses in Education IT (CABA)
+                                    </h4>
+                                    <p class="card-text">
+                                    <ul class="space-ul-li">
+                                        <li>Java para no programadores (04/2016 – 05/2016)</li>
+                                        <li>Introducción a paradigma de objetos (05/2016 – 06/2016).</li>
+                                        <li>Java standard Programming, J2SE 8.0 (07/2016 – 09/2016).</li>
+                                        <li>Java Web: Servlet, Jsp, JSTL, Struts y AJAX (08/2016 – 10/2016)).</li>
+                                        <li>Redes (05/2015 – 08/2015).</li>
+                                        <li><b>Another course</b> Aprende a invertir en la Bolsa (11/2019)</li>
+                                    </ul>
+
+                                    </p>
+                                    <p class="card-text status-education"><b>Finished</b></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="container col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>2019 - Present</h5>
+                                <h4>Idioms</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">English</h3>
+                                    <h4 class="h4Color">Go Idiomas (Cordoba)
+                                    </h4>
+                                    <p class="card-text">
+                                        Im stuying English in Go Idiomas, 
+                                        my current level is B1, and I continue 
+                                        to improve my level.
+                                    </p>
+                                    <p class="card-text status-education"><b>Incomplete</b></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="experiences">
+        <div data-aos="fade-up">
+            <h2>Experiences</h2>
+
+            <div class="container">
+
+                <!-- .NET Developer Tips -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>May 2021 - Present</h5>
+                                <h4>Full Stack Web Developer Net Core, Angular</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">.NET Developer Ssr</h3>
+                                    <h4 class="h4Color"><span style="color: rgba(24, 184, 24, 0.486);">TipSalud
+                                            S.A</span>
+                                        -
+                                        Cordoba, Argentina</h4>
+                                    <p class="card-text">
+                                        I'm working in the main proyect, that medical professionals can keep track of
+                                        their patients, and
+                                        other functionalities.
+                                    </p>
+                                    <ul class="space-ul-li">
+                                        <li><b>Modality:</b> Dependency relationship.</li>
+                                        <li><b>Contract type:</b> Indefinite period.</li>
+                                        <li><b>Working day:</b> Full-Time.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Developer Time Solution -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>January 2020 - May 2021</h5>
+                                <h4>Full Stack Web Developer Net Core, Angular</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">Web Developer</h3>
+                                    <h4 class="h4Color"><span style="color: rgb(255, 175, 1);">Time Solution
+                                            Software</span> - Nordelta (Tigre)</h4>
+                                    <p class="card-text">
+                                        My tasks were about the development and maintenance
+                                        of the main e-commerce system like. I also worked with the adaptation of the
+                                        system for clients from different areas, such as esthetics and veterinaries.
+                                        Web and Desktop applications with ASP .NET in Web
+                                        Forms and Web Api projects. Databases developments with SQL Server.
+                                        Database interaction with ADO .NET and Entity Framework. Front-End
+                                        development using jQuery, JavaScript, Html and CSS. Back-End
+                                        development using C#. Version’s control with GitHub using Sourcetree
+                                        interface.
+                                    </p>
+                                    <ul class="space-ul-li">
+                                        <li><b>Modality:</b> Dependency relationship.</li>
+                                        <li><b>Contract type:</b> Indefinite period.</li>
+                                        <li><b>Working day:</b> Full-Time.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Developer Grape Software SRL -->
+                <div class="card" data-aos="fade-up">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>July 2019 - November 2019</h5>
+                                <h4>Full Stack Web Developer Net Core, Angular</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">Services</h3>
+                                    <h4 class="h4Color"><span style="color: rgb(245, 22, 22);">Grape Software SRL</span>
+                                        -
+                                        Nordelta (Tigre)</h4>
+                                    <p class="card-text">
+                                        My tasks were about the development and maintenance some government's proyects.
+                                        Databases developments with SQL Server.
+                                        Database interaction with ADO .NET and Entity Framework.
+                                        Front-End development using Angular 8.
+                                        Back-End development using .Net Core Web Api. Version’s control with GitHub and
+                                        Azure Devops.</p>
+                                    <ul class="space-ul-li">
+                                        <li><b>Modality:</b> Dependency relationship.</li>
+                                        <li><b>Contract type:</b> Indefinite period.</li>
+                                        <li><b>Working day:</b> Full-Time.</li>
+                                    </ul>
+
+                                    <p class="card-text" style="float: right;"><b></b></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microgestion -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>August 2017 - June 2019</h5>
+                                <h4>System support</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">System support</h3>
+                                    <h4 class="h4Color"><span style="color: rgba(7, 110, 245, 0.877);">Microgestion
+                                            SRL</span> -
+                                        CABA</h4>
+                                    <p class="card-text">
+                                        This was my first IT job.
+                                        My tasks were about the development and maintenance of the IBM tool
+                                        that was Datacap and check the data was correct for electronic invoicing.
+                                        Im worked on site in the clients.
+                                        Im used Sql Server as Database.
+                                        I trained clients to use the tool.
+                                    </p>
+                                    <ul class="space-ul-li">
+                                        <li><b>Modality:</b> Dependency relationship.</li>
+                                        <li><b>Contract type:</b> Indefinite period.</li>
+                                        <li><b>Working day:</b> Full-Time.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dodero -->
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-4 align-first-column" data-aos="fade-right">
+                                <h5>December 2014 - August 2018</h5>
+                                <h4>Operator and administrative</h4>
+                            </div>
+
+                            <div class="col-md-8" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h3 class="card-title">Operator and administrative</h3>
+                                    <h4 class="h4Color"><span style="color: rgba(7, 110, 245, 0.877);">M.Dodero</span> -
+                                        General Pacheco (Tigre)</h4>
+                                    <p class="card-text">
+                                        OPERATOR: Pickeo, referral and billing of the
+                                        merchandise, use of Bejerman and SAP system, referral of
+                                        orders dispatch of merchandise.
+                                        - Administrative: covering vacations
+                                        Tasks:
+                                        Stock control, routing, billing, merchandise dispatch, control
+                                        of orders, closing of the day.
+                                    </p>
+                                    <ul class="space-ul-li">
+                                        <li><b>Modality:</b> Dependency relationship.</li>
+                                        <li><b>Contract type:</b> Indefinite period.</li>
+                                        <li><b>Working day:</b> Full-Time.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container" data-aos="fade-up">
+            <!-- Title -->
+            <h2>Contact</h2>
+
+            <!-- Social Buttons -->
+            <div class="icons">
+                <ul>
+                    <li data-aos="fade-up">
+                        <a href="https://api.whatsapp.com/send?phone=5491159479544">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="https://github.com/LucasRomero">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="https://www.linkedin.com/in/romerolucasdaniel/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="mailto:romerolucasdaniel@outlook.com">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="page-footer font-small unique-color-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Call to action -->
+            <ul class="list-unstyled list-inline text-center py-2">
+                <li class="list-inline-item">
+                    <h5 class="mb-1">Lucas Daniel Romero</h5>
+                </li>
+            </ul>
+            <!-- Call to action -->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            Updated: June 2021
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- FIN FOOTER -->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- MODERNIZR -->
+    <script src="js/modernizr-custom.js"></script>
+    <!-- MY SCRIPTS -->
+    <script src="js/myScripts.js"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
+    </script>
+    <!-- AOS Animaciones -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+        CalculateAge();
+    </script>
+
+    <!-- FIN SCRIPTS -->
+</body>
+
+</html>

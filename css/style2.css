@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+
+header {
+    width: 100% !important;
+    background-image: linear-gradient(rgba(255, 255, 255, .1), rgba(34, 30, 49, 1)), url('../images/pics/landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Navbar */
+nav {
+    color: #f4f4f4 !important;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    opacity: 100px;
+    min-width: 250px;
+}
+
+.navg a:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+/* Fin Navbar */
+
+/* Profile */
+
+header section {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 90px;
+    color: rgba(238, 226, 226, 0.973) !important;
+}
+
+header section h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+header section h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+header section img {
+    transition: all 0.3s;
+}
+
+header section img:hover {
+    transform: scale(1.06, 1.06);
+}
+
+header section a {
+    color: rgba(238, 226, 226, 0.973) !important;
+    font-size: 16px;
+    font-weight: 200;
+    border: 1px solid;
+    border-color: rgb(238, 226, 226, 0.973);
+    transition: all 1s ease;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header section a:hover.botonPDF {
+    background: #c01313;
+}
+
+header section a:hover.botonWord {
+    background: #435adb;
+}
+
+/* Fin Profile */
+/* FIN HEADER */
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+section .card {
+    margin: 1.25rem;
+    box-shadow: 0px 5px 25px 0px rgba(26, 25, 25, 0.336) !important;
+}
+
+section ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Aptitudes Técnicas */
+section h2 {
+    font-weight: 700;
+    text-align: center !important;
+}
+
+#aptitudes h3 {
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2CA8FF;
+}
+
+#aptitudes .row{
+    margin: 2% auto;
+}
+
+.bar {
+    background: rgba(44, 168, 255, 0.3);
+    display: block;
+    height: 5px;
+    border: 1px solid;
+    overflow: hidden;
+    border: #2187e7;
+}
+
+.bar span {
+    height: 5px;
+    float: left;
+    background: #2187e7;
+}
+
+.desarrollo-backend {
+    width: 20%;
+    animation: desarrollo-backend 2s;
+}
+
+.desarrollo-front {
+    width: 20%;
+    animation: desarrollo-front 2s;
+
+}
+
+.desarrollo-api {
+    width: 15%;
+    animation: desarrollo-front 2s;
+}
+
+.ux-ui {
+    width: 10%;
+    animation: desarrollo-front 2s;
+}
+
+.base-datos {
+    width: 30%;
+    animation: desarrollo-front 2s;
+}
+
+.gestion-proyectos {
+    width: 15%;
+    animation: desarrollo-front 2s;
+}
+
+/* KEY-FRAMES */
+@keyframes desarrollo-backend {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes desarrollo-front {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes desarrollo-api {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+@keyframes ux-ui {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes base-datos {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes gestion-proyectos {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+
+.progress-number {
+    font-weight: 200;
+    font-size: 14px;
+    color: #2CA8FF;
+    float: right;
+}
+
+.space-info {
+    margin-bottom: 1rem;
+}
+
+.space-ul-li ul {
+    margin: 5px;
+}
+
+.space-ul-li li {
+    margin: 0 2rem;
+}
+
+
+/* Fin Aptitudes Técnincas*/
+
+/* Education */
+
+.align-first-column {
+    background: #2187e7 !important;
+    background-size: cover;
+    padding: 5rem;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.align-first-column .date {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.mb-3 .h4Color {
+    color: grey;
+}
+
+.status-education {
+    float: right;
+    position: relative;
+}
+
+/* Fin Education */
+
+/* Contacto - Social Buttons */
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.icons ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: auto 50px 20px;
+    box-shadow: 3px 3px 10px #aeaeae,
+        -4px -4px 10px white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: .5s !important;
+    border-radius: 25%;
+}
+
+.icons a {
+    color: #333 !important;
+}
+
+.icons ul li:nth-child(1):hover {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.icons ul li:nth-child(2):hover {
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.icons ul li:nth-child(3):hover {
+    border-radius: 50%;
+    background-color: rgb(37, 59, 185);
+}
+
+.icons ul li:nth-child(4):hover {
+    border-radius: 50%;
+    background-color: rgb(228, 180, 22);
+}
+
+.icons a:hover {
+    color: #eee !important;
+}
+
+/* Fin Contacto */
+
+/* RESPONSIVE */
+/* Pantalla de 1000px */
+@media only screen and (max-width: 600px) {
+    section {
+        flex-direction: column-reverse;
+    }
+
+    section>img {
+        height: 40%;
+    }
+
+    .container-text {
+        text-align: center;
+    }
+
+    #basic-info{
+        margin-top: 5%;
+    }
+
+}
+
+/* Pantalla de 600 */
+@media screen and (max-width: 600) {
+    /* section>img {
+        height: 30%;
+    } */
+}
+
+/* FIN RESPONSIVE */
+
+
+/* OWN ANIMATIONS */
+ /* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }   */
