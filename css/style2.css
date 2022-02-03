@@ -160,33 +160,33 @@ section h2 {
 }
 
 .desarrollo-backend {
-    width: 20%;
+    width: 55%;
     animation: desarrollo-backend 2s;
 }
 
 .desarrollo-front {
-    width: 20%;
+    width: 55%;
     animation: desarrollo-front 2s;
 
 }
 
 .desarrollo-api {
-    width: 15%;
+    width: 60%;
     animation: desarrollo-front 2s;
 }
 
 .ux-ui {
-    width: 10%;
+    width: 50%;
     animation: desarrollo-front 2s;
 }
 
 .base-datos {
-    width: 30%;
+    width: 60%;
     animation: desarrollo-front 2s;
 }
 
 .gestion-proyectos {
-    width: 15%;
+    width: 35%;
     animation: desarrollo-front 2s;
 }
 
@@ -392,3 +392,9 @@ section h2 {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
   }   */
+
+/* cambiar pagina a modo oscuro */
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+}
