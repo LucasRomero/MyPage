@@ -84,12 +84,31 @@
 
             <!-- CVs -->
             <br>
-            <a href="CV/Lucas_Romero_CV.pdf" download="Lucas_Romero_CV.pdf" class="botonPDF">
-                <i class="fa fa-file-pdf"></i> PDF CV
-            </a>
-            <a href="CV/Lucas_Romero_CV.docx" download="Lucas_Romero_CV.docx" class="botonWord">
-                <i class="fa fa-file-word"></i> DOCX CV
-            </a>
+            <div class="btn-group">
+                <div class="dropdown">
+                    <button class="btn btn-outline-danger dropdown-toggle" id="drpPdf" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PDF CV</button>
+                    <div class="dropdown-menu" aria-labelledby="drpPdf">
+                        <a href="CV/Lucas_Romero_CV.pdf" download="Lucas_Romero_CV.pdf" class="dropdown-item botonPDF">
+                            <i class="fa fa-file-pdf"></i> Spanish
+                        </a>
+                        <a href="CV/Lucas_Romero_CV.pdf" download="Lucas_Romero_CV.pdf" class="dropdown-item botonPDF">
+                            <i class="fa fa-file-pdf"></i> English
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-outline-info dropdown-toggle" id="drpDocx" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DOCX CV</button>
+                    <div class="dropdown-menu" aria-labelledby="drpDocx">
+                        <a href="CV/Lucas_Romero_CV_En.docx" download="Lucas_Romero_CV.docx" class="dropdown-item botonWord">
+                            <i class="fa fa-file-word"></i> Spanish
+                        </a>
+                        <a href="CV/Lucas_Romero_CV_En.docx" download="Lucas_Romero_CV.docx" class="dropdown-item botonWord">
+                            <i class="fa fa-file-word"></i> English
+                        </a>
+                    </div>
+                </div>
+            </div>                              
         </section>
         <!-- End Profile -->
     </header>
@@ -353,7 +372,7 @@
                                     <h4 class="h4Color">Go Idiomas (Cordoba)
                                     </h4>
                                     <p class="card-text">
-                                        Im stuying English in Go Idiomas,
+                                        Im studying English in Go Idiomas,
                                         my current level is B1, and I continue
                                         to improve my level.
                                     </p>
